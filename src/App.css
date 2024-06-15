@@ -1,42 +1,74 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.app {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 2400px;
+    background: var(--surface-grey-bg);
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.app-container {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.applayout-design {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: flex-start;
+    width: 100%;
+    padding: 48px 32px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.appLayoutCollapsed {
+    width: calc(100% - 80px);
 }
 
-.card {
-  padding: 2em;
+/* REACT_TOASTIFY CSS HANDLING ------------ STARTED */
+
+.toast-container {
+    background: none;
+    border-radius: 12px;
 }
 
-.read-the-docs {
-  color: #888;
+/** Used to define container behavior: width, position: fixed etc... **/
+
+.Toastify__toast-container {
+    padding: 0 !important;
+    background: none !important;
+    border-radius: 12px;
+}
+
+.toast-body-container {
+    background: none;
+    border-radius: 12px;
+}
+
+/** Classes for the displayed toast **/
+
+.Toastify__toast {
+    padding: 0;
+    border-radius: 12px;
+}
+
+.Toastify__toast-body {
+    padding: 0;
+    border-radius: 12px;
+}
+
+/** Used to position the icon **/
+
+.Toastify__toast-icon {
+    display: none;
+}
+
+/** Classes for the close button. Better use your own closeButton **/
+
+.Toastify__close-button {
+    display: none;
+}
+
+.Toastify__progress-bar--wrp {
+    display: none;
 }
