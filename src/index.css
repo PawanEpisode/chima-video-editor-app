@@ -30,7 +30,11 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+}
+
+h1, h3 {
+  font-size: 30px;
+  font-weight: 500;
+  color: #3457D5;
+  text-align: center;
 }

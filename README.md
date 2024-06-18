@@ -1,3 +1,36 @@
 # Chima-Video-Editor-Application
 - Initialize the application using Vite - React and Javascript
+- Created AppHeader component consisting of Logo, App features, Features Page, Pricing Page, Contacts Page
+- Created page Components for Features , Pricing , Contacts Page
+- Created DynamicVideoEditor Component and used the same component for Trim Video And Split Video
+- Dynamically rendering component for route - backgroundRemoval - VideoBackgroundComponent
+- Created VideoPlayer component to accomodate video
+- Created MainContainer for Landing Page UI
+- VideoBackgroundComponent for rendering backgroundRemoval UIs
+- Created AppLayout component in layouts folder
+- Also  Created 403 and 404 pages for rendering not configured routes
+- Modification related to routes in src/routes
+- Landing Page Contants variable in src/utils
+- HelperFunctions.js contains helper functions
+- Modification in vite.config.js for accomodating env variables
+- Changes in App.css and index.css
+- Installed different packages for different usecases handling
+        - "@tensorflow-models/body-segmentation": "^1.0.2"
+        - "@tensorflow/tfjs-backend-webgl": "^4.20.0",
+        - "@tensorflow/tfjs-converter": "^4.20.0",
+        - "@tensorflow/tfjs-core": "^4.20.0",
+        - "emailjs-com": "^3.2.0",
+        - "react-icons": "^5.2.1",
+- Added EmailJS variables inside .env file in root folder
 - 
+
+# References
+- (**ffmpegwasm**)[https://ffmpegwasm.netlify.app/] 
+- (**SharedArrayBuffer**)[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer] 
+- (**create-a-video-editor-using-react**)[https://www.geeksforgeeks.org/create-a-video-editor-using-react/] 
+- (**fabric-video-editor**)[https://github.com/AmitDigga/fabric-video-editor] 
+- (**trim-video-in-reactjs-caratlane**)[https://inside.caratlane.com/trim-video-in-reactjs-c8b6e34702cb] 
+- (**using-ffmpeg-web-ambient-videos**)[https://www.albertovarela.net/blog/2016/11/using-ffmpeg-web-ambient-videos/] 
+- (**change-background-for-videos-using-tensorflow-js**)[https://selvamsubbiah.com/change-background-for-videos-using-tensorflow-js/] 
+- (**change-background-in-video-script**)[https://github.com/selvam85/change-background-using-body-segmentation/blob/master/change-background-in-video-script.js] 
+- (**body_pix**)[https://github.com/tensorflow/tfjs-models/blob/master/body-segmentation/src/body_pix/README.md] 

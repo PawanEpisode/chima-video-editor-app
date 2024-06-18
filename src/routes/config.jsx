@@ -9,6 +9,9 @@ const ErrorPage = withSuspenseHOC(() => import(/* webpackChunkName: "ErrorPage" 
 const MainContainer = withSuspenseHOC(() => import(/* webpackChunkName: "MainContainer" / / webpackPrefetch: true */'../components/MainContainer/index.jsx'))
 
 const DynamicVideoEditor = withSuspenseHOC(() => import(/* webpackChunkName: "Integration" / / webpackPrefetch: true */'../pages/VideoEditorPage/index.jsx'))
+const FeaturesPage = withSuspenseHOC(() => import(/* webpackChunkName: "Integration" / / webpackPrefetch: true */'../pages/FeaturesPage/index.jsx'))
+const PricingPage = withSuspenseHOC(() => import(/* webpackChunkName: "Integration" / / webpackPrefetch: true */'../pages/PricingPage/index.jsx'))
+const ContactPage = withSuspenseHOC(() => import(/* webpackChunkName: "Integration" / / webpackPrefetch: true */'../pages/ContactPage/index.jsx'))
 const Page403 = withSuspenseHOC(() => import(/* webpackChunkName: "Integration" / / webpackPrefetch: true */'../pages/403/index.jsx'))
 const Page404 = withSuspenseHOC(() => import(/* webpackChunkName: "Integration" / / webpackPrefetch: true */'../pages/404/index.jsx'))
 
@@ -25,16 +28,36 @@ const ConditionalRoutes = () => {
                     element: <MainContainer />,
                 },
                 {
+                    path: '/trimVideo',
+                    element: <DynamicVideoEditor />,
+                },
+                {
+                    path: '/splitVideo',
+                    element: <DynamicVideoEditor />,
+                },
+                {
+                    path: '/backgroundRemoval',
+                    element: <DynamicVideoEditor />,
+                },
+                {
+                    path: '/features',
+                    element: <FeaturesPage />,
+                },
+                {
+                    path: '/pricing',
+                    element: <PricingPage />,
+                },
+                {
+                    path: '/contact',
+                    element: <ContactPage />,
+                },
+                {
                     path: '/403',
                     element: <Page403 />,
                 },
                 {
                     path: '/404',
                     element: <Page404 />,
-                },
-                {
-                    path: '/editor',
-                    element: <DynamicVideoEditor />,
                 },
             ]
         },
