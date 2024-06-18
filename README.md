@@ -14,23 +14,23 @@
 - HelperFunctions.js contains helper functions
 - Modification in vite.config.js for accomodating env variables
 - Changes in App.css and index.css
-- Installed different packages for different usecases handling
-        - "@tensorflow-models/body-segmentation": "^1.0.2"
-        - "@tensorflow/tfjs-backend-webgl": "^4.20.0",
-        - "@tensorflow/tfjs-converter": "^4.20.0",
-        - "@tensorflow/tfjs-core": "^4.20.0",
-        - "emailjs-com": "^3.2.0",
-        - "react-icons": "^5.2.1",
+- Installed different packages for different usecases handling   
+        - "@tensorflow-models/body-segmentation": "^1.0.2"    
+        - "@tensorflow/tfjs-backend-webgl": "^4.20.0",     
+        - "@tensorflow/tfjs-converter": "^4.20.0",     
+        - "@tensorflow/tfjs-core": "^4.20.0",      
+        - "emailjs-com": "^3.2.0",     
+        - "react-icons": "^5.2.1",      
 - Added EmailJS variables inside .env file in root folder
 - 
 
 # References
-- (**ffmpegwasm**)[https://ffmpegwasm.netlify.app/] 
-- (**SharedArrayBuffer**)[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer] 
-- (**create-a-video-editor-using-react**)[https://www.geeksforgeeks.org/create-a-video-editor-using-react/] 
-- (**fabric-video-editor**)[https://github.com/AmitDigga/fabric-video-editor] 
-- (**trim-video-in-reactjs-caratlane**)[https://inside.caratlane.com/trim-video-in-reactjs-c8b6e34702cb] 
-- (**using-ffmpeg-web-ambient-videos**)[https://www.albertovarela.net/blog/2016/11/using-ffmpeg-web-ambient-videos/] 
-- (**change-background-for-videos-using-tensorflow-js**)[https://selvamsubbiah.com/change-background-for-videos-using-tensorflow-js/] 
-- (**change-background-in-video-script**)[https://github.com/selvam85/change-background-using-body-segmentation/blob/master/change-background-in-video-script.js] 
-- (**body_pix**)[https://github.com/tensorflow/tfjs-models/blob/master/body-segmentation/src/body_pix/README.md] 
+- [**ffmpegwasm**](https://ffmpegwasm.netlify.app/) 
+- [**SharedArrayBuffer**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer) 
+- [**create-a-video-editor-using-react**](https://www.geeksforgeeks.org/create-a-video-editor-using-react/) 
+- [**fabric-video-editor**](https://github.com/AmitDigga/fabric-video-editor) 
+- [**trim-video-in-reactjs-caratlane**](https://inside.caratlane.com/trim-video-in-reactjs-c8b6e34702cb) 
+- [**using-ffmpeg-web-ambient-videos**](https://www.albertovarela.net/blog/2016/11/using-ffmpeg-web-ambient-videos/) 
+- [**change-background-for-videos-using-tensorflow-js**](https://selvamsubbiah.com/change-background-for-videos-using-tensorflow-js/) 
+- [**change-background-in-video-script**](https://github.com/selvam85/change-background-using-body-segmentation/blob/master/change-background-in-video-script.js) 
+- [**body_pix**](https://github.com/tensorflow/tfjs-models/blob/master/body-segmentation/src/body_pix/README.md) 
